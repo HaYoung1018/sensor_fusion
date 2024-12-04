@@ -54,7 +54,7 @@ for _, row in times_df.iterrows():
 result_df = pd.DataFrame(results)
 
 # 결과를 CSV 파일로 저장
-output_file = 'overlap_within_groundtruth.csv'
+output_file = 'asdfghjk.csv'
 result_df.to_csv(output_file, index=False, encoding='utf-8-sig')
 print(f"결과가 '{output_file}' 파일로 저장되었습니다.")
 
